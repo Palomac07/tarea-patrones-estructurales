@@ -1,0 +1,7 @@
+proxy-ejemplo/
+│
+├── Internet.java. --> esta es la interfaz. dice :con void conectarA(String url);
+├── InternetReal.java --> hace la accion de conectarA
+├── InternetProxy.java --> Es el que controla el acceso antes de llamara a Real. controla 
+| si lo que se paso esta en la lista de prohibidos. 
+└── Main.java
