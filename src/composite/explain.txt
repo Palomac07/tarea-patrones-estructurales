@@ -1,0 +1,35 @@
+Es tipo arbol porque : 
+Universidad
+→ Facultades Objetos compuestos
+→ Departamentos Objetos compuestos
+→ Cátedras (hojas) objetos individuales
+
+Y querés hacer esto:
+
+getPresupuesto() desde arriba
+y que se calcule automáticamente sumando todo
+
+Va bajando SOLO por el árbol:
+- Universidad suma Facultades
+- Facultad suma Departamentos
+- Departamento suma Cátedras
+- Cátedra devuelve valor
+
+Arbol : 
+Universidad
+│
+├── Facultad 1
+│   │
+│   ├── Departamento 1
+│   │   ├── Cátedra 1 
+│   │   └── Cátedra 2 
+│   │
+│   └── Departamento 2
+│       ├── Cátedra 3 
+│       └── Cátedra 4 
+│
+└── Facultad 2
+    │
+    └── Departamento 3
+        ├── Cátedra 5 
+        └── Cátedra 6 
